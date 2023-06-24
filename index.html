@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Loader</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <article>
+        <h1>Preview image to upload</h1>
+        <p>click the button and choose the image file you wish to upload</p>
+        <!--default html file upload button-->
+        <input type="file" id="uploadImgBtn" accept=".jpg, .jpeg, .png" hidden />
+        <!--our custom file upload button-->
+        <label id="lbUploadBtn" for="uploadImgBtn">Choose an image</label>
+        <!--our image preview-->
+        <div id="imagePreview"></div>
+    </article>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

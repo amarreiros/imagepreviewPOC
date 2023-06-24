@@ -1,0 +1,22 @@
+article{    
+    #lbUploadBtn{
+        background-color: #080;
+        color: white;
+        padding: 0.5rem;
+        font-family: sans-serif;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    #imagePreview{
+        margin-top: 40px;
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+
+        img{
+            max-width: 400px;
+            border-radius: 10px;
+        }
+    }
+}
